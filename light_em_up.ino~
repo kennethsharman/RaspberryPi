@@ -1,7 +1,6 @@
 /*
- * Program turns an LED on for 3 seconds. Connect LED to pin 3 on Arduino.
- * Code modified from tutorial:
- * https://www.instructables.com/id/Connect-Your-Raspberry-Pi-and-Arduino-Uno/
+ * Program 
+ * Code modified from tutorial https://www.instructables.com/id/Connect-Your-Raspberry-Pi-and-Arduino-Uno/
  */
 
 char receivedChar;
