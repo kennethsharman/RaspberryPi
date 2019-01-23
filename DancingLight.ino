@@ -6,11 +6,6 @@
   The circuit:
   - LEDs from pins 2 through 7 to ground
 
-  created 2006
-  by David A. Mellis
-  modified 30 Aug 2011
-  by Tom Igoe
-
   This example code is in the public domain.
 
   http://www.arduino.cc/en/Tutorial/ForLoop
