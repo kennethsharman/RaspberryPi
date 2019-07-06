@@ -1,6 +1,6 @@
 // connect arduino Tx pin BEFORE uploading sketch
 // Tx on arduino connected to Rx on Bluetooth
-// iOS app allow recieves "test"
+// iOS app only recieves "test"
 // Windows gets all lines
 // must be a timing issue
 
