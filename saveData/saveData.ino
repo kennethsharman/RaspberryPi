@@ -1,6 +1,6 @@
 //unsigned long time;
 int analogPin = A3;
-int val = 0;
+float val = 0;
 
 void setup() {
   Serial.begin(9600);
@@ -11,10 +11,9 @@ void setup() {
 
 void loop() {
   //time = millis();
-  val = analogRead(analogPin);
+  val = analogRead(analogPin) * (5.0 / 1023.0);
 
   Serial.print("DATA,TIME,TIMER,");
   Serial.print(val);
-  Serial.println("");
-  delay(10); 
+  Serial.println(""); 
 }
